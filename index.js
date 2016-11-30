@@ -12,6 +12,20 @@ app.get('/test', function(req, res){ // listens for request on /api route
 
 /* PUT YOUR CODE BETWEEN COMMENTS */
 
+app.get('/mlb', function(req, res){ // listens for request on /api route
+  var year = req.query.year; // grabs lat and lng queries from the request object
+  var month = req.query.month;
+  var day = req.query.day;
+
+  var url = 'http://gd2.mlb.com/components/game/mlb/year_' + year + '/month_' + month + '/day_' + day + '/master_scoreboard.json';
+
+  request(url, function (error, response, body) { // api url
+    if (!error && response.statusCode === 200) {
+      res.send(body); // if no errors, send the body of data back to front end
+    }
+   });
+});
+
 
 
 /* PUT YOUR CODE ABOVE THIS COMMENT */
