@@ -1,5 +1,5 @@
 {
- "name": "Shelf Proxy",
+ "name": "Shelf-Proxy",
  "version": "0.0.1",
  "description": "Proxy for server for mlb api call.",
  "private": true,
