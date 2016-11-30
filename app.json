@@ -1,7 +1,7 @@
 {
-  "name": "SampleProxy",
-  "description": "Sample Proxy",
-  "repository": "https://github.com/tiy-greenville-front-end-fall-2016/sample-proxy-server",
+  "name": "Shelf Proxy",
+  "description": "Proxy for Global Federation of Baseball Institute",
+  "repository": "https://github.com/Oeromilk/sample-proxy-server",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs"
